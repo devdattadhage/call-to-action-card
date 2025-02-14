@@ -2,9 +2,72 @@
 <html>
   <head>
     <title>call to action card</title>
+    <style>
+      body {
+        width: 960px;
+        margin: 50px auto;
+        font-family: sans-serif;
+        font-weight: 100;
+        word-spacing: 3px;
+      }
 
+      .chatbot-body {
+        margin: 0px auto;
+        padding: 50px;
+        height: 400px;
+        width: 550px;
+        border: 1px solid rgb(191, 188, 188);
+      }
+
+      .chatbot-header > h1 {
+        margin: 0px auto;
+        color: rgba(0, 0, 0, 60%);
+        font-size: 42px;
+        font-weight: 300;
+      }
+
+      .chatbot-info {
+        color: rgba(0, 0, 0, 50%);
+        font-size: 24px;
+        line-height: 28px;
+      }
+
+      .button {
+        border-radius: 30px;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        background-color: #4184e1;
+      }
+
+      .button > p {
+        padding: 10px;
+      }
+
+      .button-info {
+        color: rgba(0, 0, 0, 40%);
+        line-height: 24px;
+      }
+    </style>
   </head>
   <body>
-    
+    <article class="chatbot-body">
+      <header class="chatbot-header">
+        <h1>Build your first chatbot in 10 minutes!</h1>
+      </header>
+      <p class="chatbot-info">
+        Have a bot answering questions from customers on your website within 10
+        minutes of signing up for ChatBot.
+      </p>
+
+      <div class="button">
+        <p>TRY NOW -></p>
+      </div>
+
+      <p class="button-info">
+        By clicking try now you create an account and agree to our Terms and
+        Conditions and Privacy Policy.
+      </p>
+    </article>
   </body>
 </html>
