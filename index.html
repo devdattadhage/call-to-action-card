@@ -4,55 +4,56 @@
     <title>call to action card</title>
     <style>
       body {
-        width: 960px;
+        width: 500px;
         margin: 50px auto;
         font-family: sans-serif;
         font-weight: 100;
-        word-spacing: 3px;
+        word-spacing: 2px;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
       }
 
       .chatbot-body {
         margin: 0px auto;
         padding: 50px;
-        height: 360px;
+        height: 400px;
         width: 500px;
-        border: 1px solid rgba(0, 0, 0, 20%);
+        border: 1px solid rgba(0, 0, 0, 60%);
       }
 
       .chatbot-header > h1 {
         margin-top: 0px;
         color: rgba(0, 0, 0, 60%);
-        font-size: 42px;
+        font-size: 46px;
+        line-height: 48px;
         font-weight: 300;
       }
 
+      .separator {
+        width: 50px;
+        border: 1.5px solid;
+      }
+
       .chatbot-info {
-        margin-top: 50px;
         color: rgba(0, 0, 0, 50%);
-        font-size: 22px;
-        line-height: 28px;
-      }
-
-      .chatbot-info span {
-        border-top: 2px solid black;
-        padding-top: 20px;
-      }
-
-      .button {
-        border-radius: 30px;
-        text-align: center;
-        font-size: 20px;
-        color: white;
-        background-color: #4184e1;
+        font-size: 23px;
+        line-height: 32px;
       }
 
       .button {
         padding: 10px;
+        border-radius: 30px;
+        text-align: center;
+        font-size: 24px;
+        background-color: #4184e1;
       }
 
       .button-info {
-        color: rgba(0, 0, 0, 40%);
-        line-height: 24px;
+        color: rgba(0, 0, 0, 45%);
+        line-height: 22px;
       }
     </style>
   </head>
@@ -61,12 +62,15 @@
       <header class="chatbot-header">
         <h1>Build your first chatbot in 10 minutes!</h1>
       </header>
+
+      <div class="separator"></div>
+
       <p class="chatbot-info">
-        <span>Have</span> a bot answering questions from customers on your
-        website within 10 minutes of signing up for ChatBot.
+        Have a bot answering questions from customers on your website within 10
+        minutes of signing up for ChatBot.
       </p>
 
-      <div class="button">TRY NOW &rarr;</div>
+      <div class="button"><a href="">TRY NOW &rarr;</a></div>
 
       <p class="button-info">
         By clicking try now you create an account and agree to our Terms and
